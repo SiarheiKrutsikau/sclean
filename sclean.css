@@ -1,0 +1,141 @@
+.centerall{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.center{
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.select-one{
+    letter-spacing: 2px;
+    word-spacing: inherit;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background: white;
+    font-size:20px;
+    text-align: center;
+    border-bottom: 0px  solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.txtFormTwo{
+    display: inline-block;
+    letter-spacing: 2px;
+    word-spacing: inherit;
+    background: white;
+    font-size:20px;
+    text-align: center;
+    border: 2px  solid blue;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 35px 0px 0px 0px;
+}
+.txtFormTwo input[type=text]{
+    border: 0px;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.blago{
+    display: inline-block;
+    font-size: 30px;
+    outline: none;
+    letter-spacing: 2px;
+    word-spacing: inherit;
+    padding: 120px 0px 0px 0px;
+    color: black;
+    margin: 0px 0px -80px 0px;
+}
+.select-one:focus {
+    outline: 0 solid ;
+}
+.form_radio{
+    display: inline-block;
+    margin-right: 10px;
+}
+.form_radio input[type=radio] {
+    display: none;
+}
+.form_radio input[type=radio]:checked + label{
+    background: #ffe0a6;
+}
+.form_radio label {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 15px 20px;
+    line-height: 40px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+    font-size: 20px;
+}
+.rad{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.form_pice{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.price-form{
+    display: inline-block;
+    width: 200px;
+    height: 24px;
+    margin: 10px 0;
+    padding: 18px;
+    background: blue;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    letter-spacing: 2px;
+}
+.price-form:hover{
+    display: inline-block;
+    width: 200px;
+    height: 24px;
+    margin: 10px 0;
+    padding: 18px;
+    background: #0000CD;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    letter-spacing: 2px;
+}
+.form_text {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 30px 29px 1px 9px;
+    background-color: white;
+    margin: 0 0;
+    line-height: 40px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.form_text input[type=text]{
+    border: 0px;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    letter-spacing: 2px;
+}

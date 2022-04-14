@@ -1,0 +1,6 @@
+$host="localhost";
+$user="one";
+$password="agat";
+
+$database="in_user";
+table=new_user;

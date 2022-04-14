@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="sclean.css">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="centerall">
+            <div id="cont"></div>
+            <div class="center" >
+                <div id="del">
+                    <div class="select">
+                        <select class="select-one"  size="1">
+                            <option disabled>Выберите тип уборки</option>
+                            <option selected value="1000">Стандартная уборка</option>
+                            <option id='dd' value="2000">Генеральная уборка</option>
+                            <option value="3000">Послестроительная уборка</option>
+                        </select>
+                    </div>
+                    <div class="rad" >    
+                        <div class="form_radio">
+                            <input type="radio" id="plan1" name="square"  checked value="55">
+                            <label  for="plan1">55м<sup>2</sup></label>
+                            <!--<span class="title-for-radi0" for="plan1">55 м<sup>2</sup></span>-->
+                        </div>    
+                        <div class="form_radio">
+                            <input type="radio" id="plan2" name="square" value="75">
+                            <label  for="plan2">75м<sup>2</sup></label>
+                            <!--<span class="title-for-radio">75 м<sup>2</sup></span>-->
+                        </div>    
+                        <div class="form_radio">
+                            <input type="radio" id="plan3" name="square" value="85">
+                            <label  for="plan3">85м<sup>2</sup></label>
+                            <!--<span class="title-for-radio">85 м<sup>2</sup></span>-->
+                        </div>    
+                        <div class="form_text" id="ft">
+                            <input type="text" id="txt" size="2" maxlength="5" placeholder="______" value="">
+                        </div>    
+                    </div>
+                    <div class="form_pice">
+                        <spain>Цена</spain>
+                        <spain>от</spain>
+                        <spain id="result"></spain>
+                        <spain>₽</spain>
+                    </div>
+                    <div class="price-form" id="form-price">Заказать</div>
+                </div>
+            </div>
+        </div>
+        <script src="sclean.js"></script>
+    </body>
+</html>
+
+
+
+
